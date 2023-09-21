@@ -39,7 +39,8 @@ body{
     margin: 0;
 }
 
-img{
+
+.images{
     float: left;
     margin: 0 10px 10px 0;
     height: 200px;
@@ -55,4 +56,16 @@ section{
     flex-wrap: wrap;  
     color: aliceblue;
     font-family: sans-serif;
+}
+
+.profile-pic{
+    margin-top: 15px;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+.main-statement{
+    text-align: center;
+    font-style: italic;
 }
