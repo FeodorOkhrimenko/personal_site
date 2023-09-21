@@ -64,6 +64,5 @@ section{
 }
 
 .main-statement{
-    float: right;
-    /* font-size: 15px; */
+    text-align: center;
 }
