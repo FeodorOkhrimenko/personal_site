@@ -39,6 +39,7 @@ body{
     margin: 0;
 }
 
+
 .images{
     float: left;
     margin: 0 10px 10px 0;
@@ -56,6 +57,7 @@ section{
     color: aliceblue;
     font-family: sans-serif;
 }
+
 .profile-pic{
     margin-top: 15px;
     height: 300px;
