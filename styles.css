@@ -1,0 +1,38 @@
+.button-link{
+    display: inline-block; 
+    margin: 0 5px 0 5px;   
+    font-size: 30px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50px;
+}
+
+ul{
+    padding: 0;
+}
+
+.logo{
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-body{
+    height: 100vh;
+    background-color: lightblue;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+}
