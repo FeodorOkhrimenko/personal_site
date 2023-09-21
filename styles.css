@@ -5,6 +5,7 @@
 }
 
 .nav-bar{
+    background-color: aliceblue;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -18,21 +19,51 @@ ul{
 .logo{
     font-weight: 600;
     margin-top: 15px;
-    margin-left: 5px;
     font-size: 30px;
     text-align: center;
 }
 
 .main-body{
+    margin: 0 50px 0 50px;
     height: 100vh;
-    background-color: lightblue;
 }
 
 footer{
+    background-color: aliceblue;
     display: flex;
     justify-content: center;
 }
 
 body{
+    background-color: lightblue;
     margin: 0;
+}
+
+.images{
+    float: left;
+    margin: 0 10px 10px 0;
+    height: 200px;
+    width: 300px;
+}
+
+section{
+    border-radius: 10px;
+    border: solid 8px lightblue;
+    padding: 0px 15px 0px 15px;
+    background-color: navy;
+    text-align: left;
+    flex-wrap: wrap;  
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.profile-pic{
+    margin-top: 15px;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+.main-statement{
+    float: right;
+    /* font-size: 15px; */
 }
