@@ -1,7 +1,11 @@
 .button-link{
     display: inline-block; 
-    margin: 0 5px 0 5px;   
+    margin: 0 7px;   
     font-size: 30px;
+}
+
+.button-link:hover{
+    transform: scale(1.2);
 }
 
 .nav-bar{
@@ -24,25 +28,28 @@ ul{
 }
 
 .main-body{
-    margin: 0 50px 0 50px;
-    height: 100vh;
+    margin: 0 50px;
+    min-height: 100vh;
 }
 
 footer{
     background-color: aliceblue;
     display: flex;
     justify-content: center;
+    text-align: center;
+    height: 3rem;
 }
 
 body{
     background-color: lightblue;
     margin: 0;
+    min-height: 100%;
 }
 
 
 .images{
     float: left;
-    margin: 0 10px 10px 0;
+    margin: 0 10px;
     height: 200px;
     width: 300px;
 }
@@ -50,7 +57,7 @@ body{
 section{
     border-radius: 10px;
     border: solid 8px lightblue;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 15px;
     background-color: navy;
     text-align: left;
     flex-wrap: wrap;  
@@ -68,7 +75,15 @@ section{
 .main-statement{
     text-align: center;
     font-style: italic;
+
 }
 .submit{
-    padding: 5px;
-}
+    border-radius: 10px;
+    border: solid 8px lightblue;
+    padding: 10px 15px;
+    background-color: navy;
+    text-align: left;
+    flex-wrap: wrap;  
+    color: aliceblue;
+    font-family: sans-serif;
+}  
